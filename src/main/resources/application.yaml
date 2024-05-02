@@ -1,0 +1,8 @@
+# the name of Camel
+camel.springboot.name: MyCamel
+
+# allow to obtain basic information about camel routes (read only mode)
+management.endpoint.camelroutes.enabled : true
+management.endpoint.camelroutes.read-only: true
+
+fake-store-api.uri: "https://fakestoreapi.com"
